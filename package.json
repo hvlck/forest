@@ -1,0 +1,22 @@
+{
+    "name": "forest",
+    "displayName": "Forest Dark",
+    "description": "dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Forest Dark",
+                "uiTheme": "vs-dark",
+                "path": "themes/dark.json"
+            }
+        ]
+    }
+}
