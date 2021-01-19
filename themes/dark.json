@@ -38,7 +38,7 @@
         "list.hoverBackground": "#383a3f",
         "list.inactiveSelectionBackground": "#383a3f",
         "list.inactiveSelectionForeground": "#b9bec5",
-        "list.hoverForeground": "#8e9298",
+        "list.hoverForeground": "#b9bec5",
         "list.focusForeground": "#232429",
         "list.invalidItemForeground": "#dc143c",
         "list.errorForeground": "#dc143c",
@@ -57,8 +57,8 @@
         "sideBar.background": "#232429",
         "sideBar.foreground": "#b9bec5",
         "sideBarTitle.foreground": "#8e9298",
-        "sideBarSectionHeader.background": "#4e5056",
-        "sideBarSectionHeader.foreground": "#a4a8af",
+        "sideBarSectionHeader.background": "#38393e",
+        "sideBarSectionHeader.foreground": "#b9bec5",
         "editorPane.background": "#232429",
         "editorGroup.emptyBackground": "#232429",
         "editorGroup.border": "#383a3f",
@@ -110,9 +110,7 @@
         "editorOverviewRuler.warningForeground": "#5e81f07f",
         "editorOverviewRuler.infoForeground": "#5e81f07f",
         "editorError.foreground": "#dc143c",
-        "editorError.border": "#b9bec5",
         "editorWarning.foreground": "#5e81f0",
-        "editorWarning.border": "#a4a8af",
         "editorGutter.background": "#232429",
         "editorGutter.modifiedBackground": "#d19a66",
         "editorGutter.addedBackground": "#16c581",
@@ -124,7 +122,7 @@
         "editorSuggestWidget.background": "#383a3f",
         "editorSuggestWidget.foreground": "#b9bec5",
         "editorSuggestWidget.highlightForeground": "#5e81f0",
-        "editorSuggestWidget.selectedBackground": "#4e5056",
+        "editorSuggestWidget.selectedBackground": "#4e4f53",
         "debugExceptionWidget.background": "#383a3f",
         "debugExceptionWidget.border": "#383a3f",
         "editorMarkerNavigation.background": "#383a3f",
@@ -220,7 +218,8 @@
         "gitDecoration.deletedResourceForeground": "#dc143c",
         "gitDecoration.untrackedResourceForeground": "#61afef",
         "gitDecoration.ignoredResourceForeground": "#63666c",
-        "gitDecoration.conflictingResourceForeground": "#00cccc"
+        "gitDecoration.conflictingResourceForeground": "#00cccc",
+        "editorUnnecessaryCode.opacity": "#000000c0"
     },
     "tokenColors": [
         {
@@ -304,7 +303,7 @@
             "name": "Markup Heading",
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#5e81f0"
+                "foreground": "#16c581"
             }
         },
         {
@@ -346,7 +345,7 @@
             "name": "Markup List",
             "scope": "markup.list",
             "settings": {
-                "foreground": "#b9bec5"
+                "foreground": "#c678dd"
             }
         },
         {
